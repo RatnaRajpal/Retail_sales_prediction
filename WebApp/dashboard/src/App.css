@@ -16,9 +16,54 @@ body{
 /* #endregion */
 
 /* Customer Details */
-/* #region */
+.Final{
+  color: whitesmoke;
+  background-color: rgba(13, 15, 15, 0.877);
+  height: 550px;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 375px;
+  margin-bottom: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 30px;
+  display: list-item;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+  
+  box-shadow:
+    /* The top layer shadow */
+        0 1px 1px rgba(0,0,0,0.15),
+            /* The second layer */
+        0 10px 0 -5px rgba(14, 11, 11, 0.575),
+            /* The second layer shadow */
+        0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third layer */
+        0 20px 0 -10px  rgba(14, 11, 11, 0.575),
+            /* The third layer shadow */
+        0 20px 1px -9px rgba(0,0,0,0.15);
 
+}
+.hrfinal{
+  margin-top:45px;
+}
 
+.hrbottom{
+  margin-bottom:45px;
+}
+.infinal{
+  margin-bottom: 20px;
+}
+.bttnfinal{
+  line-height:20px;
+  height:30px;
+  width: 250px;
+  border-color: rgb(19, 84, 105);
+  margin-bottom: 10px;
+  justify-content: flex-start;
+
+}
 /* #endregion */
 
 /* Product Details */
